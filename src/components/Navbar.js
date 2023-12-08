@@ -1,17 +1,18 @@
 import logo from '../assets/logo.png';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const pages = [
     {
         name: 'About Me',
-        link: '/about',
+        link: "about",
     },
     {
-        name: 'What Customers Say',
-        link: '/customers-say',
+        name: 'Customers Say',
+        link: "customers-say",
     },
     {
         name: 'Contact',
-        link: '/contact',
+        link: "contact",
     },
 ]
 
@@ -25,7 +26,17 @@ function Navbar() {
             </div>
             <div className="navbar-page-titles-container">
                 {pages.map((item, index)=>{
-                    return <a href={item.link} key={index} className="navbar-page-titles">{item.name}</a>
+                    return (
+                        <a href="#"
+                        key={index}
+                        className="navbar-page-titles"
+                        onClick={(e) => {
+                        e.preventDefault();
+                        document.getElementById(item.link).scrollIntoView({
+                            behavior: "smooth"
+                        });
+                        }}>{item.name}</a>
+                    )        
                 })}
             </div>
         </div>

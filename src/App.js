@@ -14,9 +14,9 @@ function App() {
 
       {/* Main Section */}
       <main className="main">
-        <AboutMe />
-        <CustomersSay />
-        <Contact />
+        <AboutMe id="about" />
+        <CustomersSay id="customers-say" />
+        <Contact id="contact" />
       </main>
     </div>
   );

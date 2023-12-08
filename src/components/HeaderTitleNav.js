@@ -9,7 +9,7 @@ function HeaderTitleNav(){
           <Navbar />
           <img src={backgroundImage} className="header-background-image"></img>
           <div className="background-text">
-            Serving the Greater Bozeman Area
+            Construction And Remodelling For the Bozeman Area
           </div>
         </div>
       </header>
