@@ -2,6 +2,8 @@
 import './App.css';
 
 import HeaderTitleNav from './components/HeaderTitleNav';
+import AboutMe from './components/AboutMe';
+import CustomersSay from './components/CustomersSay';
 
 function App() {
   return (
@@ -11,8 +13,8 @@ function App() {
 
       {/* Main Section */}
       <main className="main">
-        <section id="about">About Me</section>
-        <section id="customers-say">What Customers Say</section>
+        <AboutMe />
+        <CustomersSay />
         <section id="contact">Contact</section>
       </main>
     </div>
