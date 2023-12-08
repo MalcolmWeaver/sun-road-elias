@@ -4,6 +4,7 @@ import './App.css';
 import HeaderTitleNav from './components/HeaderTitleNav';
 import AboutMe from './components/AboutMe';
 import CustomersSay from './components/CustomersSay';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <main className="main">
         <AboutMe />
         <CustomersSay />
-        <section id="contact">Contact</section>
+        <Contact />
       </main>
     </div>
   );

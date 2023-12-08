@@ -4,7 +4,7 @@ import AboutMeImage from '../assets/elias_working.jpeg';
 function AboutMe() {
     return (
         <section id="about">
-          <div className="about-me-title">
+          <div className="section-title">
             About Me
           </div>
           <div className="about-me-and-image-container">
