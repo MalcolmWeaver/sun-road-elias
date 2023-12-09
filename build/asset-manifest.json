@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.732939dc.css",
+    "main.js": "/static/js/main.850b1424.js",
+    "static/js/787.1681269a.chunk.js": "/static/js/787.1681269a.chunk.js",
+    "static/media/logo.png": "/static/media/logo.ca9f2db65e44da5a9832.png",
+    "static/media/windows_nice_wide.jpeg": "/static/media/windows_nice_wide.69247e1d3ad5a9ee89fc.jpeg",
+    "static/media/cabin_nice_cropped1.jpeg": "/static/media/cabin_nice_cropped1.5c66d1eaf9c738523c9d.jpeg",
+    "static/media/elias_working.jpeg": "/static/media/elias_working.c62d25e94f949b917ca7.jpeg",
+    "static/media/roof_landscape_wide_background_touched.jpeg": "/static/media/roof_landscape_wide_background_touched.20f1982c124cb40ad740.jpeg",
+    "static/media/3beams.jpeg": "/static/media/3beams.37a2f42ee27f5738b732.jpeg",
+    "index.html": "/index.html",
+    "main.732939dc.css.map": "/static/css/main.732939dc.css.map",
+    "main.850b1424.js.map": "/static/js/main.850b1424.js.map",
+    "787.1681269a.chunk.js.map": "/static/js/787.1681269a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.732939dc.css",
+    "static/js/main.850b1424.js"
+  ]
+}
