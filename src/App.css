@@ -57,6 +57,7 @@
 }
 
 .navbar-page-titles {
+  text-align: center;
   display: flex;
   font-display: flex;
   margin: 0px calc(5px + 1vmin) 0px calc(5px + 1vmin);
